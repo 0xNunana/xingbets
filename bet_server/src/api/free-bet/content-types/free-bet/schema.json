@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "free_bets",
+  "info": {
+    "singularName": "free-bet",
+    "pluralName": "free-bets",
+    "displayName": "free bet"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "home": {
+      "type": "string"
+    },
+    "away": {
+      "type": "string"
+    },
+    "homeScore": {
+      "type": "biginteger"
+    },
+    "awayScore": {
+      "type": "biginteger"
+    }
+  }
+}
